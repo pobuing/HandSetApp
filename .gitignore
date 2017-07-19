@@ -4,8 +4,6 @@
 # Gradle files
 build/
 .gradle/
-build.gradle
-app/build.gradle
 */build/
 # IDEA
 *.iml
