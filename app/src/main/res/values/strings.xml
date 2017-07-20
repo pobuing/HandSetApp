@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HandSetApp</string>
+    <string name="error_login_account_null">用户名不能为空</string>
+    <string name="error_login_pwd_null">用户名不能为空</string>
+    <string name="error_login_account_fail">用户名错误</string>
+    <string name="error_login_pwd_fail">密码错误</string>
 </resources>

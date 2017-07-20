@@ -24,6 +24,7 @@ public class AppModule {
 
     public AppModule(AppBaseApplication mApplication) {
         this.mApplication = mApplication;
+
     }
 
     @Singleton
@@ -33,7 +34,7 @@ public class AppModule {
         return mApplication;
     }
 
-    // TODO: other objects
+    // TODO: other Application objects
 
 
 }

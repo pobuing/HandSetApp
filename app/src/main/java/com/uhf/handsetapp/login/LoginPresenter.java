@@ -15,16 +15,20 @@ import javax.inject.Inject;
 
 public class LoginPresenter extends BasePresenter<BaseModel> {
 
-    @Inject
-    LoginModel model;
 
     @Inject
-    public LoginPresenter() {
-        super();
+    public LoginPresenter(LoginModel model) {
+        this.model = model;
     }
 
-    @Override
-    protected BaseModel bindModel() {
-        return model;
+
+    /**
+     * 登录方法
+     *
+     * @param inputAccount
+     * @param inputPwd
+     */
+    public void loginFunction(String inputAccount, String inputPwd) {
+
     }
 }

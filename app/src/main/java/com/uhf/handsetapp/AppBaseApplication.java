@@ -18,6 +18,7 @@ public class AppBaseApplication extends Application {
 
     private ApplicationComponet mApplicationComponet;
 
+
     @Override
     public void onCreate() {
         super.onCreate();

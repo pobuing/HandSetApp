@@ -9,4 +9,16 @@ package com.uhf.handsetapp.framework;
  */
 
 public interface MvpView {
+    /**
+     * 初始化视图
+     */
+    void initView();
+
+    /**
+     * 初始化视图数据
+     */
+    void initData();
+
+    void initListener();
+
 }

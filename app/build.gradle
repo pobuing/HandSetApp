@@ -30,4 +30,9 @@ dependencies {
     apt 'com.google.dagger:dagger-compiler:2.4'
     //java注解
     compile 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.jakewharton:butterknife:8.7.0'
+    apt 'com.jakewharton:butterknife-compiler:8.7.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
 }
